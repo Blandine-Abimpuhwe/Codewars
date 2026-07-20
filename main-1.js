@@ -220,3 +220,9 @@ const positiveSum=(arr)=> {
   }
   return positives.reduce((a,b)=>a+b,0)
 }
+
+//Find the stray number in an array
+const stray=(numbers)=> {
+const uniqueNumber= numbers.reduce((a,b)=> a ^ b, 0)
+return uniqueNumber
+}
