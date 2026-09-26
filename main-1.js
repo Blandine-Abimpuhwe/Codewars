@@ -226,3 +226,10 @@ const stray=(numbers)=> {
 const uniqueNumber= numbers.reduce((a,b)=> a ^ b, 0)
 return uniqueNumber
 }
+
+//KATA: Return the first two oldest
+
+const twoOldestAges=(ages)=>{
+const orderedAges = ages.sort((a,b)=> b-a)
+return [orderedAges[1], Math.max(...orderedAges)]
+}
