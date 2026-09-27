@@ -233,3 +233,17 @@ const twoOldestAges=(ages)=>{
 const orderedAges = ages.sort((a,b)=> b-a)
 return [orderedAges[1], Math.max(...orderedAges)]
 }
+
+
+//KATA: Well of Ideas
+const well = (x) => {
+  const goodIdeas = x.filter(idea => idea === "good").length;
+
+  if (goodIdeas >= 1 && goodIdeas <= 2) {
+    return "Publish!";
+  } else if (goodIdeas > 2) {
+    return "I smell a series!";
+  } else {
+    return "Fail!";
+  }
+};
