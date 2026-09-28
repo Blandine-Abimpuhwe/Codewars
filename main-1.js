@@ -247,3 +247,11 @@ const well = (x) => {
     return "Fail!";
   }
 };
+
+
+//KATA: Convert a string to an array----not complete yet
+const stringToArray=(string)=>{
+
+	// code code code
+
+}
