@@ -255,3 +255,21 @@ const stringToArray=(string)=>{
 	// code code code
 
 }
+
+
+
+//KATA: Transpose an array of two strings
+const transposeTwoStrings = (array) => {
+  
+  let result = [];
+  const maxLength = Math.max(array[0].length, array[1].length);
+  
+  for (let i = 0; i < maxLength; i++) {
+    const char1 = array[0][i] || " ";
+    const char2 = array[1][i] || " ";
+    
+    result.push(char1 + " " + char2);
+  }
+  
+  return result.join('\n');
+}
