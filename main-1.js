@@ -252,7 +252,7 @@ const well = (x) => {
 //KATA: Convert a string to an array----not complete yet
 const stringToArray=(string)=>{
 
-	// code code code
+  return string.split(' ')
 
 }
 
