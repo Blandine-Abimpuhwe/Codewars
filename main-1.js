@@ -256,7 +256,19 @@ const stringToArray=(string)=>{
 
 }
 
-
+//KATA: Square every digit
+const squareDigits = num =>{
+  
+  const arrayOfNum= Array.from(String(num),Number)
+  let square = []
+  
+  for(const chars of arrayOfNum){
+    square.push(chars * chars)
+    
+  }
+  
+  return Number(square.join(''))
+}
 
 //KATA: Transpose an array of two strings
 const transposeTwoStrings = (array) => {
