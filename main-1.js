@@ -296,3 +296,19 @@ const HighNumToLow = numToArray.sort((a,b)=> b - a )
 
 return Number(HighNumToLow.join(''))
 }
+
+
+
+//KATA: approve the array with only squares
+const isSquare = (arr)=>{
+  
+   if (arr.length === 0) return 
+    
+
+  for(const item of arr){
+    if (!Number.isInteger(Math.sqrt(item))){
+      return false
+    }
+  }
+  return true;
+}
