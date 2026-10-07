@@ -285,3 +285,14 @@ const transposeTwoStrings = (array) => {
   
   return result.join('\n');
 }
+
+
+//Kata: Order numbers in descending order
+const descendingOrder=(n)=>{
+  
+  const numToArray= Array.from(String(n), Number)
+
+const HighNumToLow = numToArray.sort((a,b)=> b - a )
+
+return Number(HighNumToLow.join(''))
+}
