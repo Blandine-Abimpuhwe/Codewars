@@ -312,3 +312,11 @@ const isSquare = (arr)=>{
   }
   return true;
 }
+
+
+//KATA: Grasshopper- summation
+const summation = (num) =>{
+  
+   return num * (num + 1) / 2
+  
+}
