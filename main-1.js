@@ -320,3 +320,13 @@ const summation = (num) =>{
    return num * (num + 1) / 2
   
 }
+
+//KATA: YOU ARE A Square (7kyu)
+const isSquareB =(n)=>{
+if( Math.sqrt(n) % 1 === 0 ){
+  return true;
+}else {
+  return false;
+}
+}
+
