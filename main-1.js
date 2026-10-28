@@ -330,3 +330,8 @@ if( Math.sqrt(n) % 1 === 0 ){
 }
 }
 
+
+//KATA: String repeat
+
+const repeatStr= (n, s) => s.repeat(n);
+
