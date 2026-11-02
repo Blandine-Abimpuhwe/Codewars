@@ -332,6 +332,30 @@ if( Math.sqrt(n) % 1 === 0 ){
 
 
 //KATA: String repeat
-
 const repeatStr= (n, s) => s.repeat(n);
+
+
+//KATA: Add numbers inside the string 
+
+const sumOfIntegersInString = (s) => {
+  let currentNumber = "";
+  let total = 0;
+
+  for (const char of s) {
+    if (char >= "0" && char <= "9") {
+      currentNumber += char;
+    } else {
+      if (currentNumber !== "") {
+        total += Number(currentNumber);
+        currentNumber = "";
+      }
+    }
+  }
+
+  if (currentNumber !== "") {
+    total += Number(currentNumber);
+  }
+
+  return total;
+};
 
