@@ -517,3 +517,12 @@ const enough =(cap, on, wait)=> {
   return -(busNotHold)
   
 }
+
+//KATA: Sum of all arguments 
+function sum(){
+  let total = 0
+  for (const num of arguments){
+    total +=num
+  }
+  return total;
+}
