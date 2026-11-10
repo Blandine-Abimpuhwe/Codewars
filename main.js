@@ -548,3 +548,8 @@ const isMagicThree = (numbers) => {
 
     return false;
 };
+
+//KATA: Basic variable assignment
+let x = "code";
+let b = "wa.rs";
+let name = x + b;
