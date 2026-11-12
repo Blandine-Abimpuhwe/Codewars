@@ -553,3 +553,15 @@ const isMagicThree = (numbers) => {
 let x = "code";
 let b = "wa.rs";
 let name = x + b;
+
+//KATA: Ordering words
+const orderWord=(s)=>{
+  
+  if (s === null || s.length === 0) {
+  return "Invalid String!"
+} 
+  else {
+  let sToA = s.split("")
+  return sToA.sort().join("")
+}
+}
