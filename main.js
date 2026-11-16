@@ -565,3 +565,16 @@ const orderWord=(s)=>{
   return sToA.sort().join("")
 }
 }
+
+//KATA: Sum all arrays
+const arraySum=(arr)=> {
+  let flatArr = arr.flat(Infinity)
+
+  return flatArr.reduce((a,b)=> {
+if (typeof b === 'number' && !Number.isNaN(b)){
+    return a + b
+  }else {
+  return a
+  }},0)
+
+}
