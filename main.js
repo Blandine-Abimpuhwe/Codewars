@@ -596,3 +596,11 @@ const noRepeat=(str)=>{
 }
 
 console.log(noRepeat("fyxoweeerrrf"))
+
+//what's the outcome?
+let y= 5;
+console.log(y++);//the addition is done after the y has been logged into console, that's why this two first lines print 5, 
+//but with addition of console.log(y) you see 6
+console.log(++y);//the addition is done before the number can reach the console,
+// when this line is tgthr with the line before it, 
+//it looks like we added 2, yet, it's that 6 that gets the addition of another 1
