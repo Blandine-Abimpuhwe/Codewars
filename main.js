@@ -619,3 +619,8 @@ while (odd < n ){
 }
   return count 
 }
+//Above verssion won't work for large tests, 
+//so we can use a simple math formula to get the same result
+const oddCount2=(n)=>{
+return Math.floor(n/2)
+}
