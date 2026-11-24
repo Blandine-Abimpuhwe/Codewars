@@ -604,3 +604,18 @@ console.log(y++);//the addition is done after the y has been logged into console
 console.log(++y);//the addition is done before the number can reach the console,
 // when this line is tgthr with the line before it, 
 //it looks like we added 2, yet, it's that 6 that gets the addition of another 1
+
+
+
+//Count odd numbers below n
+const oddCount=(n)=>{
+  
+let odd= 1
+let count = 0
+
+while (odd < n ){
+  odd +=2
+  count +=1
+}
+  return count 
+}
