@@ -624,3 +624,6 @@ while (odd < n ){
 const oddCount2=(n)=>{
 return Math.floor(n/2)
 }
+
+
+
